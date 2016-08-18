@@ -1,0 +1,19 @@
+{
+  "name": "funcraft/masterpiece-migrations-fa-yii2",
+  "description": "Masterpiece migrations for projects based on Yii2",
+  "authors":[
+    {
+      "name": "Funcraft",
+      "email": "what4me@yandex.ru"
+    }
+  ],
+  "require":{
+    "funcraft/masterpiece-interfaces": "0.*",
+    "indigerd/yii2-migration-aware-module": "*"
+  },
+  "autoload":{
+    "psr4":{
+      "funcraft\\masterpiece\\": ""
+    }
+  }
+}
